@@ -1,0 +1,25 @@
+{
+    "name": "devexploration/paypal-sdk",
+    "description": "PayPal SDK",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Siulacio",
+            "email": "siulacio@hotmail.com"
+        }
+    ],
+    "require": {
+        "phpunit/phpunit": "^5.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Devexploration\\PayPalSdk\\" : "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Devexploration\\PayPalSdk\\Tests\\" : "tests"
+        }
+    }
+}
